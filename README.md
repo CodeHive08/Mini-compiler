@@ -42,22 +42,22 @@ mini-compiler/
 ---
 
 ## 🚀 Getting Started
----
+
 ### 1. Clone the Repository
 git clone https://github.com/CodeHive08/Mini-Compiler.git
 cd mini-compiler
-###2. Install Node.js and Dependencies
+### 2. Install Node.js and Dependencies
 Ensure you have Node.js installed. Then run:
 npm install
 This will install compilex and other required packages.
 
-###3. Set Up CodeMirror
+### 3. Set Up CodeMirror
 You can set up CodeMirror either from a CDN or locally (already included in your project).
 
 ✅ Option A: Use Pre-included Local CodeMirror
 CodeMirror is already included in the codemirror/ directory and referenced in index.html:
 
-html
+<html>
 <link rel="stylesheet" href="codemirror/codemirror-5.65.19/lib/codemirror.css">
 <script src="codemirror/codemirror-5.65.19/lib/codemirror.js"></script>
 Make sure your folder structure is intact as per the repo.
@@ -68,13 +68,13 @@ Make sure your folder structure is intact as per the repo.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.19/codemirror.min.js"></script>
 ⚠️ Remove the /codemirror static path from api.js if using CDN.
 
-###4. Run the Server
+### 4. Run the Server
 node api.js
 Server will start on:
 http://localhost:8000
 Open this in your browser to access the compiler.
 
-🧪 Supported Languages
+### 🧪 Supported Languages
 ✅ C++ (g++)
 
 ✅ Java
@@ -84,7 +84,8 @@ Open this in your browser to access the compiler.
 Custom input is supported for all three languages.
 
 📸 UI Preview
-(You can add screenshots here)
+![image](https://github.com/user-attachments/assets/ca960117-6ebc-4e34-8919-3c989e43db2f)
+
 
 🛡️ Notes
 Requires internet access for Bootstrap & CodeMirror CDN (unless using local files).

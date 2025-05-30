@@ -42,30 +42,22 @@ mini-compiler/
 ---
 
 ## 🚀 Getting Started
-
+---
 ### 1. Clone the Repository
-
-```bash
 git clone https://github.com/CodeHive08/Mini-Compiler.git
 cd mini-compiler
-2. Install Node.js and Dependencies
+###2. Install Node.js and Dependencies
 Ensure you have Node.js installed. Then run:
-
-bash
-Copy
-Edit
 npm install
 This will install compilex and other required packages.
 
-3. Set Up CodeMirror
+###3. Set Up CodeMirror
 You can set up CodeMirror either from a CDN or locally (already included in your project).
 
 ✅ Option A: Use Pre-included Local CodeMirror
 CodeMirror is already included in the codemirror/ directory and referenced in index.html:
 
 html
-Copy
-Edit
 <link rel="stylesheet" href="codemirror/codemirror-5.65.19/lib/codemirror.css">
 <script src="codemirror/codemirror-5.65.19/lib/codemirror.js"></script>
 Make sure your folder structure is intact as per the repo.
@@ -76,8 +68,7 @@ Make sure your folder structure is intact as per the repo.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.19/codemirror.min.js"></script>
 ⚠️ Remove the /codemirror static path from api.js if using CDN.
 
-4. Run the Server
-bash
+###4. Run the Server
 node api.js
 Server will start on:
 http://localhost:8000

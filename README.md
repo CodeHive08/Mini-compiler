@@ -83,21 +83,21 @@ Open this in your browser to access the compiler.
 
 Custom input is supported for all three languages.
 
-📸 UI Preview
+### 📸 UI Preview
 ![image](https://github.com/user-attachments/assets/ca960117-6ebc-4e34-8919-3c989e43db2f)
 
 
-🛡️ Notes
+### 🛡️ Notes
 Requires internet access for Bootstrap & CodeMirror CDN (unless using local files).
 
 Be cautious when running untrusted code — this is not production-safe.
 
 Works best on modern browsers (Chrome, Edge, Firefox).
 
-⭐ Contributing
+### ⭐ Contributing
 Pull requests are welcome! For major changes, please open an issue first.
 
-📜 License
+### 📜 License
 This project is licensed under the MIT License.
 Let me know if you'd like me to generate:
 - Badges (Node version, license, etc.)

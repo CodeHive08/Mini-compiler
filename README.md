@@ -45,6 +45,7 @@ mini-compiler/
 
 ### 1. Clone the Repository
 git clone https://github.com/CodeHive08/Mini-compiler.git
+
 cd mini-compiler
 ### 2. Install Node.js and Dependencies
 Ensure you have Node.js installed. Then run:

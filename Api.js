@@ -109,7 +109,8 @@ app.post("/compile", function (req, res) {
                     }
                 });
             }
-        }  else {
+        }  
+        else {
             res.status(400).json({ error: "Unsupported language" });
         }
     } catch (e) {
@@ -118,6 +119,6 @@ app.post("/compile", function (req, res) {
     }
 })
 
-app.listen(8000, () => {
+app.listen(process.env.PORT ||8000, () => {
     console.log("Server is running on port 8000");
 })

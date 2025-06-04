@@ -106,13 +106,7 @@ Pull requests are welcome! For major changes, please open an issue first.
 
 ### 📜 License
 This project is licensed under the MIT License.
-Let me know if you'd like me to generate:
-- Badges (Node version, license, etc.)
-- A license file
-- A `.gitignore` file
-- Deployment instructions (e.g., using `render`, `vercel`, or `replit`)
 
-I'll be happy to help!
 
 
 

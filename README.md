@@ -27,11 +27,17 @@ here's a preview of my model:https://codejet07.netlify.app/
 ## 📁 Project Structure
 
 mini-compiler/
+
 │
+
 ├── api.js # Express server logic (backend)
+
 ├── index.html # Frontend UI
+
 ├── /codemirror # Local CodeMirror library files
+
 ├── package.json # Node dependencies
+
 └── README.md # Project documentation
 
 

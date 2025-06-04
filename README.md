@@ -1,6 +1,6 @@
 # 💻 Mini Compiler
 A **Mini Compiler** web application built using HTML, CSS, JavaScript, Node.js, and CompileX that lets you write, compile, and execute code for **C++**, **Java**, and **Python**. The interface features syntax highlighting powered by **CodeMirror**.
-
+here's a preview of my model:https://codejet07.netlify.app/
 ## ✨ Features
 
 - 🖊️ Syntax-highlighted code editor using CodeMirror
